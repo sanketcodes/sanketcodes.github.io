@@ -1,0 +1,29 @@
+{
+  "name": "sanketcodes.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Sanket Jadhav",
+  "license": "ISC",
+  "main": "index.js",
+  "source": "public/index.html",
+  "scripts": {
+    "start": "parcel --open --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "daisyui": "^2.51.5",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://github.com/sanketcodes/sanketcodes.github.io#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketcodes/sanketcodes.github.io.git"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
